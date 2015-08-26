@@ -1,0 +1,4 @@
+<%= t('.title') %>
+
+<p>Время <span id="time"><%= Time.now.to_s %></span></p>
+<%= link_to 'Обновить время', times_path, remote: true %>
